@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon link --->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!--- custom css link --->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Advice generator app</title>
+  </head>
+  <body>
+    <!-- main container -->
+    <div class="main-container grid">
+      <div class="app-card margin-inline-auto relative">
+        <div class="wrapper">
+          <h1 class="advice__no text-center" data-advice-no>ADVICE #<span data-advice-count>1</span></h1>
+
+          <p class= "advice__text text-center margin-inline-auto" data-advice-text>
+            "It is easy to sit up and take notice,
+            what's difficult is getting up and taking action."
+          </p>
+        </div>
+
+        <div class="divider">
+          <img src="/images/pattern-divider-mobile.svg" alt="divider" data-divider-mobile>
+          <img src="/images/pattern-divider-desktop.svg" alt="divider" data-divider-desktop>
+        </div>
+
+        <button class="advice__btn absolute grid" data-advice-btn>
+          <img src="/images/icon-dice.svg" alt="dice-icon" width="20">
+        </button>
+
+      </div>
+    </div>
+
+
+
+    <!--- custom script link  --->
+    <script src="/script.js"></script>
+  </body>
+</html>
